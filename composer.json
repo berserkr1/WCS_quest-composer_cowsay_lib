@@ -1,0 +1,13 @@
+{
+    "name": "goupil/composer-cowsay-lib",
+    "description": "cowsay library test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Goupil\\ComposerCowsayLib\\": "src/"
+        }
+    },
+    "require": {
+        "gipetto/cowsay": "^1.1"
+    }
+}
